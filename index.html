@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class & Object JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <fieldset>
+    <h1>Selamat Datang</h1>
+    <p>Silahkan isi formulir pendataan produk Mie Instan</p>
+    <form onsubmit="return false" method="post">
+      <div class="konten">
+        <div class="konten-body">
+          <div>
+            <label>Nama Produk</label> <br>
+            <input type="text" id="nama1">
+          </div>
+          <div>
+            <label>Jumlah Produk</label> <br>
+            <input type="text" id="jumlah1">
+          </div>
+          <div>
+            <label>Status</label> <br>
+            <select name="" id="status1">
+              <option value="dijual">Di Jual</option>
+              <option value="dibeli">Di Beli</option>
+              <option value="kosong">Kosong</option>
+            </select>
+          </div>
+        </div>
+        <hr>
+        <div class="konten-body">
+          <div>
+            <label>Nama Produk</label> <br>
+            <input type="text" id="nama2">
+          </div>
+          <div>
+            <label>Jumlah Produk</label> <br>
+            <input type="text" id="jumlah2">
+          </div>
+          <div>
+            <label>Status</label> <br>
+            <select name="" id="status2">
+              <option value="dijual">Di Jual</option>
+              <option value="dibeli">Di Beli</option>
+              <option value="kosong">Kosong</option>
+            </select>
+          </div>
+        </div>
+        <hr>
+        <div class="konten-body">
+          <div>
+            <label>Nama Produk</label> <br>
+            <input type="text" id="nama3">
+          </div>
+          <div>
+            <label>Jumlah Produk</label> <br>
+            <input type="text" id="jumlah3">
+          </div>
+          <div>
+            <label>Status</label> <br>
+            <select name="" id="status3">
+              <option value="dijual">Di Jual</option>
+              <option value="dibeli">Di Beli</option>
+              <option value="kosong">Kosong</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div id="btn">
+        <button id="kirim">Kirim</button>
+      </div>
+    </form>
+  </fieldset>
+  <div id="hasil">
+    <div id="hasil1"></div>
+    <div id="hasil2"></div>
+    <div id="hasil3"></div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>

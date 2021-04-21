@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+fieldset {
+  margin: 5px;
+}
+
+form .konten {
+  display: flex;
+  justify-content: center;
+}
+
+form .konten .konten-body {
+  width: 100%;
+  margin-right: 25px;
+}
+
+form .konten div input,
+select {
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 0 0 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+}
+
+form div input:focus {
+  border: 2px solid blue;
+}
+
+#btn {
+  margin-right: 13px;
+}
+
+button {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 5px;
+  outline: none;
+}
+
+button#lihat {
+  border: 1px solid green;
+}
+
+button:hover {
+  color: white;
+  background-color: blue;
+}
+
+hr {
+  border: 1px solid #ccc;
+  width: 100%;
+  display: none;
+}
+
+#hasil {
+  display: flex;
+  /* justify-content: center; */
+}
+
+#hasil div {
+  margin: 10px 50px;
+}
+
+@media (max-width: 700px) {
+  form .konten {
+    flex-direction: column;
+  }
+
+  form .konten .konten-body div {
+    margin-right: 10px;
+  }
+
+  hr {
+    display: block;
+  }
+
+  #btn {
+    width: 100%;
+  }
+}
