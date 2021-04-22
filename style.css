@@ -97,4 +97,8 @@ hr {
   #btn {
     width: 100%;
   }
+
+  #hasil {
+    flex-direction: column;
+  }
 }
