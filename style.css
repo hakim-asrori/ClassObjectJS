@@ -26,10 +26,9 @@ form .konten .konten-body {
   margin-right: 25px;
 }
 
-form .konten div input,
-select {
+form .konten div input {
   height: 30px;
-  margin-bottom: 10px;
+  margin: 10px 0;
   padding: 0 0 0 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -75,7 +74,7 @@ hr {
 
 #hasil {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 #hasil div {
